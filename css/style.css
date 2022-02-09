@@ -1,0 +1,78 @@
+  
+  header, footer {
+    background: rgba(93, 12, 105, 0.089);
+    height: 20vh;
+  }
+  header, footer, article, nav {
+    padding: 1em;
+  }
+
+  header h1 {
+      text-align: center;
+      text-shadow: 0 0 3px purple;
+      font-size: 70;
+  }
+
+  nav h2 {
+    text-shadow: 0 0 3px whitesmoke;
+    font-size: 20px;
+    font-style: italic;
+  }
+  article {
+      text-justify: auto;
+  }
+
+  article h1, h3 {
+    text-align: center;
+  }
+
+  article div div p {
+    font-size: 20px;
+  }
+
+  footer h2 {
+    font-size: 14px;
+    font-weight: normal;
+    font-style: italic;
+    text-align: center;
+    color: darkred;
+  }
+
+/* When it is unvisited link */
+a:link {
+  color:rgb(20, 32, 201);
+  }
+  
+  /* When it is visited link */
+  a:visited {
+  color: darkgreen;
+  }
+  
+  /* When you mouse over link */
+  a:hover {
+  /* color: red; */
+  color: rgb(134, 55, 207);
+  }
+  
+  /* When it is selected link */
+  a:active {
+  
+  }
+  .flexItem-proj {
+    background-color: rgb(232, 247, 210);
+    
+  }
+
+  .flexItem-resume {
+    background-color: rgb(232, 247, 210);
+  }
+
+  .contact-container {
+    background-color: rgb(232, 247, 210);
+    text-align: left;
+    padding-left: 30px;
+    font-size: medium;
+    font-style: italic;
+    color: darkred;
+  }
+ 
