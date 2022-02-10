@@ -75,4 +75,17 @@ a:link {
     font-style: italic;
     color: darkred;
   }
+
+  .icon {
+    height: 30px;
+  }
+  
+  .icon1{
+    height: 30px;
+
+
+  }
  
+  .icon1:hover {
+    opacity: 0.8;
+  }
