@@ -30,6 +30,9 @@
     font-size: 20px;
   }
 
+  article h1 {
+    text-shadow: 0 0 3px darkgreen;
+  }
   footer h2 {
     font-size: 14px;
     font-weight: normal;
@@ -88,4 +91,36 @@ a:link {
  
   .icon1:hover {
     opacity: 0.8;
+  }
+
+  .boxed {
+    border: 3px solid darkgreen ;
+  }
+
+  .oval {
+    
+    height: 50px;
+    width: 200px;
+    background-color: darkgreen;
+    border-radius: 50%;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    margin-left: 10px;
+  }
+
+  .parallelogram {
+    display: flex;
+    width: 200px;
+    height: 35px;
+    transform: skewX(-20deg);
+   
+    background: darkgreen;
+   
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 110px;
   }
